@@ -1,0 +1,115 @@
+header{
+    position: relative;
+    background-color: #673ab7;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+#logo-liga{
+    position: absolute;
+    left: 15px;
+    height: 70px;
+    top: 25px;
+}
+
+#nombre-liga{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#jornada-actual{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    clear: both;
+}
+
+.equipo{
+    margin: 5px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 20px 0px #673ab7(0,0,0,0.8);
+    box-shadow: 4px 4px 20px 0px #673ab7;
+}
+
+.equipo-estadio{
+    color: #673ab7;
+}
+
+.competicion-logo{
+    height: 200px;
+}
+
+.body{
+
+}
+
+.header{
+    background-color: #673ab7;
+    margin: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+.fundacion{
+  background-color: #673ab7;
+  color:white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.equipo-nombre{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.equipo-imagen{
+    height: 120px;
+    
+}
+
+.equipo-estadio{
+    border-top: 2px solid #673ab7;
+    border-bottom: 2px solid #673ab7;
+    padding: 10px;
+    color: #673ab7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.equipo-competiciones{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.competicion-logo{
+    height: 70px;
+    padding: 10px;
+    color: #673ab7;
+    margin: 5px;
+}
+
+.equipo-boton{
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 3px;
+    color: white;
+    background-color: #673ab7;
+    text-align: center;
+    font-weight: bold;
+}
